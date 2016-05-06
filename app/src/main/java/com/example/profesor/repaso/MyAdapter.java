@@ -32,6 +32,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
         holder.nombre.setText(p.getNombre());
         holder.apellido.setText(p.getApellido());
         holder.telefono.setText(p.getNumero());
+
+
     }
 
     @Override
